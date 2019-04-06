@@ -1,0 +1,7 @@
+<launch>
+
+  <node pkg="m_usb_cam" type="img_publisher" name="publisher" required="true"/>
+
+  <node pkg="m_usb_cam" type="img_viewer" name="viewer"/>
+
+</launch>
